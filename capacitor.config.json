@@ -1,0 +1,27 @@
+{
+  "appId": "com.web2app.web2app",
+  "appName": "Web 2 App",
+  "webDir": "www",
+  "server": {
+    "url": "https://web2app.deluxestore.app",
+    "cleartext": false,
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.jks",
+      "keystoreAlias": "upload"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "backgroundColor": "#0f172a",
+      "launchShowDuration": 1500,
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#0f172a",
+      "style": "DARK"
+    }
+  }
+}
